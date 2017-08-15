@@ -10,6 +10,10 @@ This week:
 `change, and in this case insertion_sort  will show how`
 `insertion sort works.` 
 
+    * Additional task with insertion_sort.c:
+`change the sorting function so that it does not use`
+`int_swap at all, and as a result, runs a bit faster.`
+
     * coin_change.c : contains some initial settings for Ex 6.9.
 
 
