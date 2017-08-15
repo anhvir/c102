@@ -2,7 +2,8 @@
 =======
 This week:
 
-    * insertion_sort.c and insertion_sort.data: a complete program 
+    * insertion_sort.c and insertion_sort.data:
+`a complete program` 
 `and data for inputting an array and printing out`
 `the sorted array. They can be used as a starting point`
 `for Ex 7.3, and 7.4. They can  also be used without any`
