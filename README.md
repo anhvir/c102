@@ -1,6 +1,7 @@
  c102
 =======
 This week:
+    * For week 5, you can use insertion_sort.c as a starting point for exercies 7.6 - 7.11.
 
     * insertion_sort.c and insertion_sort.data:
 `a complete program` 
