@@ -1,8 +1,12 @@
  c102
 =======
 This week:
-   * Week07: string_examples.c contains the implementatio of
-             some functions discussed in the workshop.
+   * Week09: slides used this week and
+             skeleton for Ex 4,5,6.
+
+
+                  HAPPY MIDTERM BREAK !
+                 ======================
 
 by anhvir@gmail.com, for use in unimelb COMP10002 workshops.
 
