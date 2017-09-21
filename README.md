@@ -5,7 +5,7 @@ This week:
              skeleton for Ex 4,5,6.
 
 
-                  HAPPY MIDTERM BREAK !
+HAPPY MIDTERM BREAK !
 ======================
 
 by anhvir@gmail.com, for use in unimelb COMP10002 workshops.
