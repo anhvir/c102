@@ -8,7 +8,7 @@ Content of this week:
   * `mary.txt` is sample input data for exercises 4.6 and 4.7
 
 How to Download:
-  * Download this whole `c102` directory by clicking `Clone or Download` --> `Download ZIP`, it will normally be downloaded to your `Downloads` folder
+  * Download this whole `c102-master` directory by clicking `Clone or Download` --> `Download ZIP`, it will normally be downloaded to your `Downloads` folder
   * Then copy or move the folder `c102` from `Downloads` to under your working folder `week3/`
   * If the file download with extension .ZIP, you likely need to expand the file with command `unzip c102-master.ZIP`
 
