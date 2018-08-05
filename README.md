@@ -1,6 +1,6 @@
  c102 Week 03:
 =======
-Content of this week:
+Content for this week:
   * `grapher.c` is a frame for implementing Exercise 4.5
   * `grapher.data` contains sample input data for Exercises 4.5
   * `e56.c` is a skeleton for Exercise 5.6
