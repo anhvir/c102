@@ -10,7 +10,12 @@ Content of this week:
 How to Download:
   * Download this whole `c102-master` directory by clicking `Clone or Download` --> `Download ZIP`, it will normally be downloaded to your `Downloads` folder
   * Then copy or move the folder `c102` from `Downloads` to under your working folder `week3/`
-  * If the file download with extension .ZIP, you likely need to expand the file with command `unzip c102-master.ZIP`
+  * If the downloaded `c102-master` has the extension `.ZIP`, you likely need to expand the zipped file with command `unzip c102-master.ZIP`
+
+If you just want a single file, say, `e56.c`:
+  * Click on `e56.c` 
+  * Click on `Raw`
+  * Copy the content and paste into your jEdit window 
 
 -------------------------------------------------------------
 by anhvir@gmail.com, for use in unimelb COMP10002 workshops.
