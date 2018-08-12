@@ -16,9 +16,9 @@ input data.
 ---------------------------------------------------------
 **HOW_TO: download/copy the files from this github repository**
 
-If you just want a single file, say, `e56.c`:
-  * Click on `e56.c` and you will see its content 
-  * Copy the content and paste into your jEdit window, then save as `e56.c` 
+If you just want a single file, say, `e6.9.c`:
+  * Click on `e6.9.c` and you will see its content 
+  * Copy the content and paste into your jEdit window, then save as `e6.9.c` 
 
 If you want to download the whole directory:
   * Download this whole directory by clicking `Clone or Download` --> `Download ZIP`, it will normally be downloaded to your `Downloads` folder under the name `c102-master` or `c102-master.ZIP`
