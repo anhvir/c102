@@ -1,9 +1,11 @@
 /*    
-	Purpose : using arrays of integers 
-			  (note: incremental development!!!)
+	Purpose : - input an array of integers
+              - print the inputted array
+              - sort the array in increasing order
+                & demonstrates how insertion sort works
+              - output the sorted array 
    
-	Started by: Anh Vo, anhvir@gmail.com, 10 Apr 2017
-	Finished by: 
+	Started by: Anh Vo, anhvir@gmail.com
 
 */
 
@@ -67,7 +69,7 @@ void ins_sort(int a[], int n){
 		}
 
 		/* the next 5 lines is just for printing interim results */
-		printf ("Step %2d: ",i);
+		printf ("After i=%2d: ",i);
 		for (j=0; j<=i; j++) printf(" %2d", a[j]);
 		printf("  ||  ");
 		for (   ; j<n; j++) printf(" %2d", a[j]);
