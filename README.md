@@ -1,12 +1,20 @@
- c102 Week 03:
+c102 Week 4
 =======
-Content for this week:
-  * `frame.c` is a frame for any C program!
-  * `grapher.c` is a frame for implementing Exercise 4.5
-  * `grapher.data` contains sample input data for Exercises 4.5
-  * `e56.c` is a skeleton for Exercise 5.6
-  * `e56.data` is sample input data for Exercise 5.6
-  * `mary.txt` is sample input data for exercises 4.6 and 4.7
+This week:
+
+  * `insertion_sort.c` and `int_array.txt`: a complete program 
+and data for inputting an array and printing out
+the sorted array, using insertion sort.
+It also demonstrates how insertion works.
+You can also use this `.c` file for exercise 7.3.
+  * `e6.9.c`: skeleton for implementing exercise 6.9
+  * `e7.4.Sol1.c`: skeleton for the trivial solution of exercise 7.4
+  * `e7.4.Sol2.c`: skeleton for Solution 2 of exercise 7.4, here you
+need to invent a smart solution based on some constraints on the
+input data.
+
+---------------------------------------------------------
+#How to download/copy the files in this github repository
 
 If you just want a single file, say, `e56.c`:
   * Click on `e56.c` and you will see its content 
@@ -17,12 +25,7 @@ If you want to download the whole directory:
   * Then copy or move the folder `c102` from `Downloads` to under your working folder `week3/`
   * If the downloaded `c102-master` has the extension `.ZIP`, you likely need to expand the zipped file with command `unzip c102-master.ZIP`
 
-How to use sample input data, say, for e46.c? I am really tired with typing the data again and again each time I test my progarm!
-  * Make sure that you have the data file mary.txt in your working folder. 
-  * After compiling your program into, say, `e46.exe`, just run `./e46.exe < mary.txt`
-
-  your program will run, and instead of reading input data from the keyboard, it will read from the file `mary.txt`. So convenient!  
--------------------------------------------------------------
+---------------------------------------------------------
 by anhvir@gmail.com, for use in unimelb COMP10002 workshops.
 
 For a teaching week, a new content is (normally) uploaded at the very beginning of the week, and that content is removed one week later.
