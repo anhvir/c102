@@ -12,6 +12,8 @@ You can also use this `.c` file for exercise 7.3.
   * `e7.4.Sol2.c`: skeleton for Solution 2 of exercise 7.4, here you
 need to invent a smart solution based on some constraints on the
 input data.
+  * `int_array.txt`: a data file that can be used as input data for
+all above programs. 
 
 ---------------------------------------------------------
 **HOW_TO: download/copy the files from this github repository**
