@@ -14,7 +14,7 @@ need to invent a smart solution based on some constraints on the
 input data.
 
 ---------------------------------------------------------
-#How to download/copy the files in this github repository
+**HOW_TO: download/copy the files from this github repository**
 
 If you just want a single file, say, `e56.c`:
   * Click on `e56.c` and you will see its content 
