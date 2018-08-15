@@ -6,7 +6,7 @@ This week:
 and data for inputting an array and printing out
 the sorted array, using insertion sort.
 It also demonstrates how insertion works.
-You can also use this `.c` file for exercise 7.3.
+  * `e7.3.c`: skeleton and hints for exercise 7.3
   * `e6.9.c`: skeleton for implementing exercise 6.9
   * `e7.4.Sol1.c`: skeleton for the trivial solution of exercise 7.4
   * `e7.4.Sol2.c`: skeleton for Solution 2 of exercise 7.4, here you
