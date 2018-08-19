@@ -1,6 +1,6 @@
 c102 Week 5
 =======
-This week: All skeletons listed are just from the last Week. But note that e7.3.c could be as skeleton for all exerises this week, including 7.7, 7.8, 7.9, and 7.10.
+This week: All skeletons listed are just from the last Week. But note that e7.3.c could be used as a skeleton for all exerises this week, including 7.7, 7.8, 7.9, and 7.10.
 
   * `insertion_sort.c` and `int_array.txt`: a complete program 
 and data for inputting an array and printing out
