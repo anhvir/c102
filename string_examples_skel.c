@@ -4,7 +4,9 @@
 #include <string.h>
 #include <ctype.h>
 
-#define N 26
+#define TRUE 1
+#define FALSE 0
+#define N_LETTERS 26
 void count_freq(char *s, int freq[]);   
 int is_subsequence(char *s1, char *s2);
 int is_anagram(char *s1, char *s2); 
@@ -19,10 +21,10 @@ int main(int argc, char *argv[]) {
 	char *s6="Glamor 123 Hits 4+5=9";
    
     /* test count_freq */
-	int freq[N], i;
+	int freq[N_LETTERS], i;
 	count_freq(s2, freq);
 	printf("string= %s\n freq= ",s2);
-	for (i=0; i<N; i++) {
+	for (i=0; i<N_LETTERS; i++) {
 		if (freq[i]) printf("%c:%d ", 'A'+i, freq[i]);
 	}
 	printf("\n\n");
@@ -54,7 +56,7 @@ void count_freq(char *s, int freq[]) {
    returns 0 otherwise
 */
 int is_subsequence(char *s1, char *s2) {
-	return 1;
+	return TRUE;
 } 
 
 /* Exercise 3 from lec06
@@ -65,7 +67,7 @@ int is_subsequence(char *s1, char *s2) {
      including digits!
 */
 int is_anagram(char *s1, char *s2) {
-	return 1;
+	return TRUE;
 }
 
 /* EXERCISE: add a function here for Exercise 2 of lec06.pdf */
