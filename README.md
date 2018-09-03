@@ -1,7 +1,7 @@
  c102 Week07: Apology: I initially uploaded a wrong version of `assignment1.pdf`. If you’ve already downloaded it, please re-download now.
 ============
 This week:
-   * `string_examples_skel.c` contains the implementatio of
+   * `string_examples_skel.c` skeleton for implementing
              some functions discussed in the workshop.
    * `assignment1.pdf` : advices for assignment 1
   
