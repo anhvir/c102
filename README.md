@@ -1,4 +1,4 @@
- c102 Week07: Apology: I initially uploaded a wrong version of `assignment1.pdf`. If you’ve already downloaded it, please re-download now.
+ c102 Week07: Apology: I initially uploaded a wrong version of `assignment1.pdf`. If you downloaded it before 4PM Monday 03/SEP, please re-download now.
 ============
 This week:
    * `string_examples_skel.c` skeleton for implementing
