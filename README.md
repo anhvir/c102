@@ -1,13 +1,12 @@
- c102 Week07: Apology: I initially uploaded a wrong version of `assignment1.pdf`. If you downloaded it before 4PM Monday 03/SEP, please re-download now.
-============
+ c102
+=======
 This week:
-   * `string_examples_skel.c` skeleton for implementing
-             some functions discussed in the workshop.
-   * `assignment1.pdf` : advices for assignment 1
-  
+   * Week09: slides used this week and
+             skeleton for Ex 4,5,6.
 
 
-------------------------------------------------------------
+HAPPY MIDTERM BREAK !
+======================
 
 by anhvir@gmail.com, for use in unimelb COMP10002 workshops.
 
