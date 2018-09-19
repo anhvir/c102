@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>    /* note: this one for malloc() and free()  */
 #include <string.h>
+#include <assert.h>
 
 #define N 5
 
@@ -34,6 +35,7 @@ int main(int argc, char *argv[]) {
 // returns a duplicate of string "s"
 char *string_dupe(char *s) {
 	char *t= malloc( strlen(s+1) * sizeof(*t) );
+	assert(t);
 	strcpy(t,s);
 	return t;
 } 
