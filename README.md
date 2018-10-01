@@ -1,11 +1,10 @@
- c102
+ c102  Week 10
 =======
 This week:
-   * Week09: slides used this week and
-             skeleton for Ex 4,5,6.
+   * Slides for this week, including assigment2 advices
+   * from Week09: slides used in week 09 (updated) and skeleton for Ex 4,5,6.
 
 
-HAPPY MIDTERM BREAK !
 ======================
 
 by anhvir@gmail.com, for use in unimelb COMP10002 workshops.
