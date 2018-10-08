@@ -1,8 +1,8 @@
- c102  Week 10
+ c102  Week 11
 =======
 This week:
-   * Slides for this week, including assigment2 advices
-   * from Week09: slides used in week 09 (updated) and skeleton for Ex 4,5,6.
+   * Slides for this week (not much, because this week is reserved for assignment 2) 
+   * gdb tutorial and gdb cheatsheet, which you can obviuosly easily find in the Internet. 
 
 
 ======================
