@@ -1,8 +1,7 @@
- c102  Week 11
+ c102  Week 12
 =======
 This week:
-   * Slides for this week (not much, because this week is reserved for assignment 2) 
-   * gdb tutorial and gdb cheatsheet, which you can obviuosly easily find in the Internet. 
+   * Slides for this week and all other weeks
 
 
 ======================
