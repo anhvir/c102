@@ -4,19 +4,18 @@
 Instructions for today's lab
 ----------------------------
 1. Open a new tab in your browser (say, Chrome), navigate to the LMS page of comp10002
-1. Click on **LMS** --> **Working with jEdit and gcc**, and follow the instructions for "Write and run your program in the MSE lab". 
+1. Click on `LMS` --> `Working with jEdit and gcc`, and follow the instructions for `Write and run your program in the MSE lab`. 
 Hints: You should resize and re-arrange the windows so that at the same time
-you can fully see both Chrome and minGW windows, and when in need, see both jEdit and minGW windows.
-1. In the minGW window try the folloing commands. You will need to use these commands (there are only three of them: cd, ls, mkdir) very frequently. 
+you can fully see both **Chrome** and **minGW** windows, and when in need, see both **jEdit** and **minGW** windows.
+1. In the **minGW** window try the folloing commands. You will need to use these commands (there are only three of them: `cd`, `ls`, `mkdir`) very frequently. 
 
-[I'm an inline-style link](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e02-08.tiff)
 
 Command | Explaination and notes
 ------- | ------------
 `cd h:` | make your `H:` driver be the "current working folder" (CWF)
 `ls`    | display content of CWF
 `mkdir Projects` | make a new folder named `Projects`
-`cd Projects` | change CWF to `Project`. Note: only type `cd P` then \<TAB\>
+`cd Projects` | change CWF to `Project`. Note: only type `cd P` then press \<TAB\>, hich will autocomplete your command
 `mkdir comp10002` | make a new folder
 `cd comp10002` | change CWF, remember to employ \<TAB\> for autofilling
 `mkdir Week2`  | make a new folder 
@@ -25,10 +24,11 @@ Command | Explaination and notes
  
 Then
 ----
-1. Implement Exercise 1.2: Edit, save, compile, and run **helloworld.c**. For that, follow the steps in **LMS** --> **Working with jEdit and gcc**
-1. Implement exercise 2.8. If you still don't have a copy of the textbook, you can click on the link **Week2_exercises.pdf** above. Advice: Buy the book ASAP, it's a good investment :smile: 
+1. Implement Exercise 1.2: Edit, save, compile, and run `helloworld.c`. For that, follow the steps in `LMS` --> `Working with jEdit and gcc`
+1. Implement exercise 2.8. If you still don't have a copy of the textbook, you can click [here](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e02-08.tiff). Note that the exercies are supplied only for the first 
+Advice: Buy the book ASAP, it's a good investment :smile: 
 1. Implement exercise 2.4. A quick way is to use the skeleton e24.c by
-   1. Click on **e24.c** above
+   1. Click on **e24.c** [above](./equation.c)
    1. Copy the content of that **e24.c** and paste into your **jEdit** window
    1. Save as **H:/Projects/comp10002/Week2/e24.c**
    1. Complete and test your **e24.c** 
