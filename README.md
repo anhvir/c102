@@ -21,7 +21,8 @@ Command | Explaination and notes
 `mkdir Week2`  | make a new folder 
 `cd Week2`     |
 `ls`           | you will see that there is no content. You will place all files of this week in this folder.
- 
+
+[link](https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7226561_1&course_id=_391850_1&mode=reset) 
 Then
 ----
 1. Implement Exercise 1.2: Edit, save, compile, and run `helloworld.c`. For that, follow the steps in `LMS` --> `Working with jEdit and gcc`
