@@ -25,7 +25,7 @@ Command          | Explanation and notes
 
 Then
 ----
-1. *Have 5 minutes of fun* by copying a content of a C program, namely, **guessNumber.c** to your **jEdit** window, then save it as **H:/Projects/comp10002/Week2/guessNumber.c**, and compile and run it. Click [here](./guessNumber.c) to get the content of **guessNumber.c**. For compiling and running, use the **minGW** window, compiling with `gcc -Wall -o guessNumber.exe guessNumber.c`, and running with `guessNumber`. If you are successful with this fun, you can skip step 2 and move directly to step 3. 
+1. *Have 5 minutes of fun* by copying a content of a C program, **guessNumber.c**, to your **jEdit** window, and save it as **H:/Projects/comp10002/Week2/guessNumber.c**, then compile and run it. Click [here](./guessNumber.c) to get the content of **guessNumber.c**. For compiling and running, use the **minGW** window, compiling with `gcc -Wall -o guessNumber.exe guessNumber.c`, and running with `guessNumber`. If you are successful with this fun, you can skip step 2 and move directly to step 3. 
 1. *Implement Exercise 1.2*, that is, edit, save, compile, and run **helloworld.c**. First, switch to the **jEdit** window, type in the content of **helloworld.c**, then save it as **H:/Projects/comp10002/Week2/helloworld.c**. Note that to be able to save on **H:**, you must click on **root** when choosing the filename. You can copy **helloworld.c** from [here](https://people.eng.unimelb.edu.au/ammoffat/ppsaa/c/helloworld.c) 
 1. *Implement exercise 2.8:* If you still don't have a copy of the textbook, you can click [here](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e02-08.tiff). Note that the exercises are supplied only for the first 
 2 workshops.
@@ -38,7 +38,7 @@ Then
 
 The best way of using the material in this github site
 --------------------------------------------------
-  * Download this whole **c102** directory by clicking **Clone or Download** --> **Download ZIP**, it will normally be downloaded to your **Downloads** directory
+  * Download this whole **c102** directory by clicking `Clone or Download` --> `Download ZIP`, it will normally be downloaded to your **Downloads** directory
   * Then copy the directory **c102** from **Downloads** to your working directory, i.e. to under **H:/Projects/comp10002/Week2/**
   * Compile, run, and explore [**guessNumber.c**](./guessNumber.c), have some fun
   * Note that [**explained_guessNumber.c**](./explained_guessNumber.c) is the same as **guessNumber.c**, but also has heap of explanations, but don't try hard to understand everything 
