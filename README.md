@@ -24,7 +24,7 @@ Command          | Explaination and notes
 
 Then
 ----
-1. *Implement Exercise 1.2*, that is, edit, save, compile, and run **helloworld.c**. First, switch to the **jEdit** window, type in the content of **helloworld.c**, then save it as **H:/Projects/comp10002/Week2/helloworld.c**. Note that to be able to save on **H:**, you must click on **root** when choosing the filename.You can copy helloworld.c from [here](https://people.eng.unimelb.edu.au/ammoffat/ppsaa/c/helloworld.c) 
+1. *Implement Exercise 1.2*, that is, edit, save, compile, and run **helloworld.c**. First, switch to the **jEdit** window, type in the content of **helloworld.c**, then save it as **H:/Projects/comp10002/Week2/helloworld.c**. Note that to be able to save on **H:**, you must click on **root** when choosing the filename. You can copy **helloworld.c** from [here](https://people.eng.unimelb.edu.au/ammoffat/ppsaa/c/helloworld.c) 
 1. *Implement exercise 2.8:* If you still don't have a copy of the textbook, you can click [here](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e02-08.tiff). Note that the exercies are supplied only for the first 
 2 workshops.
 *Advice:* Buy the book ASAP, it's a good investment :smile: 
@@ -37,16 +37,16 @@ Then
 The best way of using the material in this github site
 --------------------------------------------------
   * Download this whole **c102** directory by clicking **Clone or Download** --> **Download ZIP**, it will normally be downloaded to your **Downloads** directory
-  * Then copy the directory **c102** from **Downloads** to your working directory, i.e. to under H:/Projects/comp10002/Week2/
+  * Then copy the directory **c102** from **Downloads** to your working directory, i.e. to under **H:/Projects/comp10002/Week2/**
   * Compile, run, and explore [**guessNumber.c**](./guessNumber.c), have some fun
-  * Note that **explained_guessNumber.c**(./explained_guessNumber.c) is the same as **guessNumber.c**, but also has heap of explainations, but don't try hard to understand everything 
+  * Note that [**explained_guessNumber.c**](./explained_guessNumber.c) is the same as **guessNumber.c**, but also has heap of explainations, but don't try hard to understand everything 
   * Repair and complete [**equation.c**](./equation.c). if you haven't done so 
 
 Important Homework
 -----------------
-1. If you haven't installed minGW/jEdit on your laptop, do it at home ASAP and within this week. Instruction for installation is available at `LMS` --> `Compiling and Editing` --> `install gcc and jEdit on your own computer` which is [here](https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7226561_1&course_id=_391850_1&mode=reset) 
-1. IMPORTANT NOTE FOR FUTURE: During installing minGW, when the dialog box appears (in Step 3), also scroll down to find and mark the item "msys-openssh bin" for installation. This will help you to connect your laptop with the university's network and other computers later.
-1. ANOTHER IMPORTANT NOTE FOR FUTURE:For convenience of working from home, you also need VPN. If you don't know what and/or how, please ask Google. A simple query like "VPN unimelb" could be a good start.
+1. If you haven't installed **minGW**/**jEdit** on your laptop, do it at home ASAP and within this week. Instruction for installation is available at `LMS` --> `Compiling and Editing` --> `install gcc and jEdit on your own computer` which is [here](https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7226561_1&course_id=_391850_1&mode=reset) 
+1. IMPORTANT NOTE FOR FUTURE: During installing **minGW**, when the dialog box appears (in Step 3), also scroll down to find and mark the item `msys-openssh bin` for installation. This will help you to connect your laptop with the university's network and other computers later.
+1. ANOTHER IMPORTANT NOTE FOR FUTURE:For convenience of working from home, you also need **VPN**. If you don't know what and/or how, please ask Google. A simple query like "VPN unimelb" could be a good start.
 
 
 
