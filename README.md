@@ -57,7 +57,7 @@ Important Homework
 
 If you just want a single file, say, **equation.c**:
   * Click on the link **equation.c** (at the top of this github) and you will see its content 
-  * Copy the content and paste into your jEdit window, then save as **equation.c** 
+  * Copy the content and paste into your **jEdit** window, then save as **equation.c** 
 
 If you want to download the whole directory:
   * Download this whole directory by clicking `Clone or Download` --> `Download ZIP`, it will normally be downloaded to your *Downloads* directory under the name **c102** or **c102.ZIP** (it might also have a suffix **-master**)
