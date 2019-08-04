@@ -24,15 +24,15 @@ Command          | Explaination and notes
 
 Then
 ----
-1. Implement Exercise 1.2: Edit, save, compile, and run `helloworld.c`. For that, follow the steps in `LMS` --> `Working with jEdit and gcc`
+1. Implement Exercise 1.2: Edit, save, compile, and run `helloworld.c`. First, switch to the **jEdit** window, type in the content of helloworld.c, then save it as **H:/Projects/comp10002/Week2/helloworld.c**. Note that to be able to save on **H:**, you must click on **root** when choosing the filename. 
 1. Implement exercise 2.8. If you still don't have a copy of the textbook, you can click [here](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e02-08.tiff). Note that the exercies are supplied only for the first 
-Advice: Buy the book ASAP, it's a good investment :smile: 
-1. Implement exercise 2.4. A quick way is to use the skeleton e24.c by
-   1. Click on **e24.c** [above](./equation.c)
-   1. Copy the content of that **e24.c** and paste into your **jEdit** window
-   1. Save as **H:/Projects/comp10002/Week2/e24.c**
-   1. Complete and test your **e24.c** 
-1. Follow the advise below
+2 workshops.
+*Advice:* Buy the book ASAP, it's a good investment :smile: 
+
+1. Implement exercise 2.8. If you still don't have a copy of the textbook, you can click [here](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e02-08.tiff). Note that the exercies are supplied only for the first 
+2 workshops.
+
+1. If you still have time, follow the advice below. You can also do it at home.
 
 
 The best way of using the material in this github site
@@ -41,7 +41,7 @@ The best way of using the material in this github site
   * Then copy the directory **c102** from **Downloads** to your working directory, i.e. to under H:/Projects/comp10002/Week2/
   * Compile, run, and explore *guessNumber.c*, have some fun
   * Note that *explained_guessNumber.c* is the same as *guessNumber.c*, but also has heap of explainations, but don't try hard to understand everything 
-  * Repair and complete *equation.c* if you haven't done so 
+  * Repair and complete [**equation.c**](./equation.c). if you haven't done so 
 
 Important Homework
 -----------------
