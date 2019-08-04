@@ -15,7 +15,7 @@ Command          | Explaination and notes
 `cd h:` | make your `H:` driver be the "current working folder" (CWF)
 `ls`    | display content of CWF
 `mkdir Projects` | make a new folder named `Projects`
-`cd Projects` | change CWF to `Project`. Note: only type `cd P` then press \<TAB\>, hich will autocomplete your command
+`cd Projects` | change CWF to `Project`. Note: only type `cd P` then press \<TAB\>, for autofilling
 `mkdir comp10002` | make a new folder
 `cd comp10002` | change CWF, remember to employ \<TAB\> for autofilling
 `mkdir Week2`  | make a new folder 
