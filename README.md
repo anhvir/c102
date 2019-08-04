@@ -13,15 +13,15 @@ you can fully see both Chrome and minGW windows, and when in need, see both jEdi
 
 Command | Explaination and notes
 ------- | ------------
-`cd h:` | make your H: driver be the "current working folder" (CWF)
+`cd h:` | make your `H:` driver be the "current working folder" (CWF)
 `ls`    | display content of CWF
-mkdir Projects | make a new folder named "Projects"
-cd Projects | change CWF to "Project". Note: only type "cd P" then <tab>
-mkdir comp10002 | make a new folder
-cd comp10002 | change CWF, remember to employ <tab>
-mkdir Week2  | make a new folder 
-cd Week2     |
-ls           | you will see that there is no content. You will place all files of this week in this folder.
+`mkdir Projects` | make a new folder named `Projects`
+`cd Projects` | change CWF to `Project`. Note: only type `cd P` then \<TAB\>
+`mkdir comp10002` | make a new folder
+`cd comp10002` | change CWF, remember to employ \<TAB\> for autofilling
+`mkdir Week2`  | make a new folder 
+`cd Week2`     |
+`ls`           | you will see that there is no content. You will place all files of this week in this folder.
  
 Then
 ----
