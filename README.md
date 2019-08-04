@@ -13,8 +13,8 @@ you can fully see both Chrome and minGW windows, and when in need, see both jEdi
 
 Command | Explaination and notes
 ------- | ------------
-cd h: | make your H: driver be the "current working folder" (CWF)
-ls    | display content of CWF
+`cd h:` | make your H: driver be the "current working folder" (CWF)
+`ls`    | display content of CWF
 mkdir Projects | make a new folder named "Projects"
 cd Projects | change CWF to "Project". Note: only type "cd P" then <tab>
 mkdir comp10002 | make a new folder
