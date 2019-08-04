@@ -67,6 +67,6 @@ If you want to download the whole directory:
 
 
 -------------------------------------------------------------
-by anhvir@gmail.com, for use in unimelb COMP10002
+by avo@unimelb.edu.au, for use in unimelb COMP10002.
 
 For a teaching week, a new content is (normally) uploaded at the very beginning of the week, and that content is removed one week later.
