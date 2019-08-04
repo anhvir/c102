@@ -9,6 +9,8 @@ Hints: You should resize and re-arrange the windows so that at the same time
 you can fully see both Chrome and minGW windows, and when in need, see both jEdit and minGW windows.
 1. In the minGW window try the folloing commands. You will need to use these commands (there are only three of them: cd, ls, mkdir) very frequently. 
 
+[I'm an inline-style link](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e02-08.tiff)
+
 Command | Explaination and notes
 ------- | ------------
 cd h: | make your H: driver be the "current working folder" (CWF)
