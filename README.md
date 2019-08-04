@@ -29,8 +29,7 @@ Then
 2 workshops.
 *Advice:* Buy the book ASAP, it's a good investment :smile: 
 
-1. Implement exercise 2.8. If you still don't have a copy of the textbook, you can click [here](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e02-08.tiff). Note that the exercies are supplied only for the first 
-2 workshops.
+1. Implement exercise 3.7. If you still don't have a copy of the textbook, you can click [here](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e03-07.tiff).
 
 1. If you still have time, follow the advice below. You can also do it at home.
 
@@ -54,14 +53,14 @@ Important Homework
 ---------------------------------------------------------
 **HOW_TO: download/copy the files from this github repository**
 
-If you just want a single file, say, `e6.9.c`:
-  * Click on `e6.9.c` and you will see its content 
-  * Copy the content and paste into your jEdit window, then save as `e6.9.c` 
+If you just want a single file, say, **equation.c**:
+  * Click on the link **equation.c** (at the top of this github) and you will see its content 
+  * Copy the content and paste into your jEdit window, then save as **equation.c** 
 
 If you want to download the whole directory:
   * Download this whole directory by clicking `Clone or Download` --> `Download ZIP`, it will normally be downloaded to your *Downloads* folder under the name **c102** or **c102.ZIP** (it might also have a suffix **-master**)
   * Then copy or move the folder **c102** from **Downloads** to under your working folder **week2/**
-  * If the downloaded **c102** has the extension **.ZIP**, you likely need to expand the zipped file with command **unzip c102-master.ZIP**
+  * If the downloaded **c102** has the extension **.ZIP**, you likely need to expand the zipped file with command **unzip c102.ZIP**
 
 
 
