@@ -3,7 +3,7 @@
 
 Instructions for today's lab
 ----------------------------
-1. Open a new tab in your browser (say, Chrome), navigate to the LMS page of comp10002 for late use.
+1. Open a new tab in your browser (say, **Chrome**), navigate to the LMS page of comp10002 for late use.
 1. Start **jEdit** program, it will open a window in which you can edit and then save your programs. 
 1. Start **minGW** program, it will open another window. This window represents a terminal where you can run unix-style commands (such as compiling, running your own programs).  
 1. Now, spend some time to resize and re-arrange your 3 windows (**Chrome**, **jEdit**, **minGW**) so that at the same time you can fully see both **Chrome** and **minGW** windows, and when in need, see both **jEdit** and **minGW** windows. While fully seeing all 3 windows simutanously is desirable, it is not practical on our small screen. 
@@ -24,12 +24,12 @@ Command          | Explaination and notes
 
 Then
 ----
-1. Implement Exercise 1.2: Edit, save, compile, and run `helloworld.c`. First, switch to the **jEdit** window, type in the content of helloworld.c, then save it as **H:/Projects/comp10002/Week2/helloworld.c**. Note that to be able to save on **H:**, you must click on **root** when choosing the filename. 
-1. Implement exercise 2.8. If you still don't have a copy of the textbook, you can click [here](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e02-08.tiff). Note that the exercies are supplied only for the first 
+1. *Implement Exercise 1.2*, that is, edit, save, compile, and run **helloworld.c**. First, switch to the **jEdit** window, type in the content of **helloworld.c**, then save it as **H:/Projects/comp10002/Week2/helloworld.c**. Note that to be able to save on **H:**, you must click on **root** when choosing the filename.You can copy helloworld.c from [here](https://people.eng.unimelb.edu.au/ammoffat/ppsaa/c/helloworld.c) 
+1. *Implement exercise 2.8:* If you still don't have a copy of the textbook, you can click [here](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e02-08.tiff). Note that the exercies are supplied only for the first 
 2 workshops.
 *Advice:* Buy the book ASAP, it's a good investment :smile: 
 
-1. Implement exercise 3.7. If you still don't have a copy of the textbook, you can click [here](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e03-07.tiff).
+1. *Implement exercise 3.7:* If you still don't have a copy of the textbook, you can click [here](https://people.eng.unimelb.edu.au/ammoffat/teaching/10002/e/e03-07.tiff).
 
 1. If you still have time, follow the advice below. You can also do it at home.
 
