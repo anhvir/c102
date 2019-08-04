@@ -3,11 +3,11 @@
 
 Instructions for today's lab
 ----------------------------
-1. Open a new tab in your browser (say, Chrome), navigate to the LMS page of comp10002
-1. Click on `LMS` --> `Working with jEdit and gcc`, and follow the instructions for `Write and run your program in the MSE lab`. 
-Hints: You should resize and re-arrange the windows so that at the same time
-you can fully see both **Chrome** and **minGW** windows, and when in need, see both **jEdit** and **minGW** windows.
-1. In the **minGW** window try the folloing commands. You will need to use these commands (there are only three of them: `cd`, `ls`, `mkdir`) very frequently. 
+1. Open a new tab in your browser (say, Chrome), navigate to the LMS page of comp10002 for late use.
+1. Start **jEdit** program, it will open a window in which you can edit and then save your programs. 
+1. Start **minGW** program, it will open another window. This window represents a terminal where you can run unix-style commands (such as compiling, running your own programs).  
+1. Now, spend some time to resize and re-arrange your 3 windows (**Chrome**, **jEdit**, **minGW**) so that at the same time you can fully see both **Chrome** and **minGW** windows, and when in need, see both **jEdit** and **minGW** windows. While fully seeing all 3 windows at the same time is desirable, it is not practical on our small screen. 
+1. **Learn some unix commands:** In the **minGW** window try the following commands. You will need to use these commands (there are only three of them: `cd`, `ls`, `mkdir`) very frequently. 
 
 
 Command | Explaination and notes
@@ -22,7 +22,6 @@ Command | Explaination and notes
 `cd Week2`     |
 `ls`           | you will see that there is no content. You will place all files of this week in this folder.
 
-[link](https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7226561_1&course_id=_391850_1&mode=reset) 
 Then
 ----
 1. Implement Exercise 1.2: Edit, save, compile, and run `helloworld.c`. For that, follow the steps in `LMS` --> `Working with jEdit and gcc`
@@ -46,13 +45,23 @@ The best way of using the material in this github site
 
 Important Homework
 -----------------
-1. If you haven't installed minGW/jEdit on your laptop, do it at home ASAP and within this week. Instruction for installation is available at **LMS** --> **Working with jEdit and gcc** --> **installing jEdit and gcc on your own computer** 
-1. IMPORTANT NOTE: When installing minGW (in step 3 of the above mentioned instruction, when the dialog box appears), scroll down to find and mark the item "msys-openssh bin" for installation.
-1. Now, if you are inside uni, you can use your laptop and connect to uni's computer dimefox (see instructions in 
-**LMS** --    > **Working with jEdit and gcc** --> **Compiling and running programs on dimefox**
-1. However, if you work from home, to be able to do step 3, you must first run VPN. If you don't know what and/or how, please ask Google. A simple query like "VPN unimelb" could be a good start.
+1. If you haven't installed minGW/jEdit on your laptop, do it at home ASAP and within this week. Instruction for installation is available at `LMS` --> `Compiling and Editing` --> `install gcc and jEdit on your own computer` which is [here](https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7226561_1&course_id=_391850_1&mode=reset) 
+1. IMPORTANT NOTE FOR FUTURE: During installing minGW, when the dialog box appears (in Step 3), also scroll down to find and mark the item "msys-openssh bin" for installation. This will help you to connect your laptop with the university's network and other computers later.
+1. ANOTHER IMPORTANT NOTE FOR FUTURE:For convenience of working from home, you also need VPN. If you don't know what and/or how, please ask Google. A simple query like "VPN unimelb" could be a good start.
 
 
+
+---------------------------------------------------------
+**HOW_TO: download/copy the files from this github repository**
+
+If you just want a single file, say, `e6.9.c`:
+  * Click on `e6.9.c` and you will see its content 
+  * Copy the content and paste into your jEdit window, then save as `e6.9.c` 
+
+If you want to download the whole directory:
+  * Download this whole directory by clicking `Clone or Download` --> `Download ZIP`, it will normally be downloaded to your `Downloads` folder under the name `c102-master` or `c102-master.ZIP`
+  * Then copy or move the folder `c102` from `Downloads` to under your working folder `week3/`
+  * If the downloaded `c102-master` has the extension `.ZIP`, you likely need to expand the zipped file with command `unzip c102-master.ZIP`
 
 
 
