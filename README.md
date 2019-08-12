@@ -2,7 +2,7 @@
 =======
 Today's Lab:
 
-Open a web browser tab, navidate to LMS and scroll don to the content of
+Open a web browser tab, navigate to LMS and scroll don to the content of
 this week's workshop. Then:
   * Check that you understand the workshop discussions
   * See if you still have any questions, including questions related
@@ -10,9 +10,9 @@ to the lecture materials last week. If needed, ask a tutor or ask
 Google to make sure you understand.
   * Follow the instructions in LMS and do your lab work.
 
-Below is some additional information for the lab's execises:
+Below is some additional information for the lab's exercises:
   * `Exercise 4.5`: You'd better to start from scratch to make sure
-that you can write the openning and closing part of a C program without 
+that you can write the opening and closing part of a C program without 
 looking at any document. If you are certain that you can do that, you
 can get the frame of a program from [here](./frame.c) to save just 
 a bit of your time. Suppose that your program is done and running,
@@ -31,8 +31,8 @@ program. You can test your program with:
 ``` 
   * `Exercise e56.c`: In this exercise, you'd better to focus on 
 writing functions. To save time, you can copy a skeleton for this
-progroam from [here](./e56.c). The skeleton is an unfinished
-program, but it's tready to be tested. You can test it ith:
+program from [here](./e56.c). The skeleton is an unfinished
+program, but it's ready to be tested. You can test it with:
 ```bash
 gcc -Wall -o e56 e56.c
 ./e56 < e56_data.txt
