@@ -2,7 +2,7 @@
 =======
 Today's Lab:
 
-Open a web browser tab, navigate to LMS and scroll don to the content of
+Open a web browser tab, navigate to LMS and scroll down to the content of
 this week's workshop. Then:
   * Check that you understand the workshop discussions
   * See if you still have any questions, including questions related
@@ -37,7 +37,8 @@ program, but it's ready to be tested. You can test it with:
 gcc -Wall -o e56 e56.c
 ./e56 < e56_data.txt
 ```
-and the go back to e56.txt and develop further in the incremental way.
+and the go back to jedit `e56.c` and develop the program further in the
+ incremental way (ie. add some code, test it, then add some more code...).
 
 
 
