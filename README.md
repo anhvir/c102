@@ -40,7 +40,13 @@ gcc -Wall -o e56 e56.c
 and the go back to jedit `e56.c` and develop the program further in the
  incremental way (ie. add some code, test it, then add some more code...).
 
-
+### If you still have time
+Why not find some interesting exercies in Chapters 4 and 5 of the book
+and implement them. All tutors would love to help you on these additional
+exercises, and most likely, will admire you for that. And, if your friend
+ask for help, it is a great chance for you at least for practising to
+explain stuffs to people. Surely, you will also learn and benefit 
+from that. 
 
 ---------------------------------------------------------
 **HOW_TO: download/copy the files from this github repository**
