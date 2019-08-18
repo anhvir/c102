@@ -1,68 +1,52 @@
- c102 Week 03:
+c102 Week 4:
 =======
-Today's Lab:
+This week Lab: 
 
-Open a web browser tab, navigate to LMS and scroll down to the content of
-this week's workshop. Then:
-  * Check that you understand the workshop discussions
-  * See if you still have any questions, including questions related
-to the lecture materials last week. If needed, ask a tutor or ask
-Google to make sure you understand.
-  * Follow the instructions in LMS and do your lab work.
-
-Below is some additional information for the lab's exercises:
-  * `Exercise 4.5`: You'd better to start from scratch to make sure
-that you can write the opening and closing part of a C program without 
-looking at any document. If you are certain that you can do that, you
-can get the frame of a program from [here](./frame.c) to save just 
-a bit of your time. Suppose that your program is done and running,
-here is some notes on testing:
-    * You can run your program and supply some inputs using the keyboard,
-    * Alternatively, you can test your program with
+  * Make sure you understand the concept of arrays, the relationship
+ between arrays and pointers, then start with implementing Exercise 6.9.
+You can use the skeleton [`e69.c`](./e69.c).
+ 
+  * Make sure you understand the concept of sorting and 
+ the insertion sort algorithm. 
+To understand the latter, you can use program 
+[`insertion_sort.c`](./insertion_sort.c) and the data file
+[`int_array.txt`](./int_array.txt), which are a complete program 
+and data for inputting an array and printing out
+the sorted array.
+The program also demonstrates how insertion works. Use the program with
 ```bash
-./grapher < e45_data.txt
+gcc -Wall -o insertion_sort insertion_sort.c
+./insertion_sort < int_array.txt
 ```
-  the command will take the data from the file [e45_data.txt](./e45_data.txt) instead of from the keyboard. This is a brilliant way, at least for 
-testing programs, because it save our time!
-  * `Exercises 4.6` and `4.7` are better to be combined into a single 
-program. You can test your program with:
-```bash 
-  ./e46 < e46_e47_data.txt
-``` 
-  * `Exercise e56.c`: In this exercise, you'd better to focus on 
-writing functions. To save time, you can copy a skeleton for this
-program from [here](./e56.c). The skeleton is an unfinished
-program, but it's ready to be tested. You can test it with:
-```bash
-gcc -Wall -o e56 e56.c
-./e56 < e56_data.txt
-```
-and the go back to jedit `e56.c` and develop the program further in the
- incremental way (ie. add some code, test it, then add some more code...).
+  * Implement Exercise 7.3. You can start with 
+[`insertion_sort.c`](./insertion_sort.c) and add a few lines to
+remove the duplicate elements. If you want some hints, you can used
+the skeleton [`e73.c`](./e73.c).
 
-### If you still have time
-Why not find some interesting exercies in Chapters 4 and 5 of the book
-and implement them. All tutors would love to help you on these additional
-exercises, and most likely, will admire you for that. And, if some friends
-ask for help, it is a great chance for you at least for practising to
-explain stuffs to people. Surely, you will also learn and benefit 
-from that. 
+  * Implement exercise 7.4. You can use [`e74_Sol_1.c`](./e74_Sol_1.c) 
+as a skeleton for the trivial solution of exercise 7.4. 
+  * You can use [`e74_Sol_2.c`](./e74_Sol_2.c) for the second 
+implementation of Exercise 7.4. Here we suppose that all elements
+of the array a) are possitive, and b) have an upper bound (say, 1000).
+You need to invent a smart solution based on the above 2 constraints on the
+input data.
+  * Note that the file [`int_array.txt`](./int_array.txt) can 
+serve as an input data file for
+all of above programs. 
 
 ---------------------------------------------------------
 **HOW_TO: download/copy the files from this github repository**
 
-If you just want a single file, say, **equation.c**:
-  * Click on the link **equation.c** (at the top of this github) and you will see its content 
-  * Copy the content and paste into your **jEdit** window, then save as **equation.c** 
+If you just want a single file, say, `e69.c`:
+  * Click on `e69.c` and you will see its content 
+  * Copy the content and paste into your jEdit window, then save as `e69.c` 
 
 If you want to download the whole directory:
-  * Download this whole directory by clicking `Clone or Download` --> `Download ZIP`, it will normally be downloaded to your *Downloads* directory under the name **c102** or **c102.ZIP** (it might also have a suffix **-master**)
-  * Then copy or move the directory **c102** from **Downloads** to under your working directory **week2/**
-  * If the downloaded **c102** has the extension **.ZIP**, you likely need to expand the zipped file with command **unzip c102.ZIP**
+  * Download this whole directory by clicking `Clone or Download` --> `Download ZIP`, it will normally be downloaded to your `Downloads` folder under the name `c102-master` or `c102-master.ZIP`
+  * Then copy or move the folder `c102` from `Downloads` to under your working folder `week3/`
+  * If the downloaded `c102-master` has the extension `.ZIP`, you likely need to expand the zipped file with command `unzip c102-master.ZIP`
 
-
-
--------------------------------------------------------------
-by avo@unimelb.edu.au, for use in unimelb COMP10002.
+---------------------------------------------------------
+by avo@unimelb.edu.au, for use in unimelb COMP10002 workshops.
 
 For a teaching week, a new content is (normally) uploaded at the very beginning of the week, and that content is removed one week later.
