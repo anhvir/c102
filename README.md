@@ -38,8 +38,10 @@ all of above programs.
 **HOW_TO: download/copy the files from this github repository**
 
 If you just want a single file, say, `e69.c`:
-  * Click on `e69.c` and you will see its content 
-  * Copy the content and paste into your jEdit window, then save as `e69.c` 
+  * Click on the link `e69.c` (the link is provided at the top part of
+this page) and you will see the formatted content of the file,
+  * Click on the `Raw` button to see the plain text content, 
+  * Copy the content and paste into your jEdit window, then save as `e69.c`. 
 
 If you want to download the whole directory:
   * Download this whole directory by clicking `Clone or Download` --> `Download ZIP`, it will normally be downloaded to your `Downloads` folder under the name `c102-master` or `c102-master.ZIP`
