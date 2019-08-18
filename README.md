@@ -20,7 +20,7 @@ gcc -Wall -o insertion_sort insertion_sort.c
 ```
   * **Implement Exercise 7.3:** You can start with 
 [`insertion_sort.c`](./insertion_sort.c) and add a few lines to
-remove the duplicate elements. If you want some hints, you can used
+remove the duplicates. If you want some hints, you can used
 the skeleton [`e73.c`](./e73.c).
 
   * **Implement Exercise 7.4:** You can use [`e74_Sol_1.c`](./e74_Sol_1.c) 
