@@ -2,7 +2,7 @@ c102 Week 4:
 =======
 This week Lab: 
 
-  * Make sure you understand the concept of arrays, the relationship
+  * **Implement Exercise 6.9:** Make sure you understand the concept of arrays, the relationship
  between arrays and pointers, then start with implementing Exercise 6.9.
 You can use the skeleton [`e69.c`](./e69.c).
  
@@ -18,15 +18,15 @@ The program also demonstrates how insertion works. Use the program with
 gcc -Wall -o insertion_sort insertion_sort.c
 ./insertion_sort < int_array.txt
 ```
-  * Implement Exercise 7.3. You can start with 
+  * **Implement Exercise 7.3:** You can start with 
 [`insertion_sort.c`](./insertion_sort.c) and add a few lines to
 remove the duplicate elements. If you want some hints, you can used
 the skeleton [`e73.c`](./e73.c).
 
-  * Implement exercise 7.4. You can use [`e74_Sol_1.c`](./e74_Sol_1.c) 
+  * **Implement Exercise 7.4:** You can use [`e74_Sol_1.c`](./e74_Sol_1.c) 
 as a skeleton for the trivial solution of exercise 7.4. 
-  * You can use [`e74_Sol_2.c`](./e74_Sol_2.c) for the second 
-implementation of Exercise 7.4. Here we suppose that all elements
+  * You can use [`e74_Sol_2.c`](./e74_Sol_2.c) for the **second 
+implementation of Exercise 7.4**. Here we suppose that all elements
 of the array a) are possitive, and b) have an upper bound (say, 1000).
 You need to invent a smart solution based on the above 2 constraints on the
 input data.
