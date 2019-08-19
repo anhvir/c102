@@ -5,7 +5,7 @@ This week Lab:
  between arrays and pointers, then start with implementing Exercise 6.9.
 You can use the skeleton [`e69.c`](./e69.c).
  
-  * **A Challenge: Implement Exercise 7.4 for a special, less general case:** For this exercise, we need to prints out the frequency of each value
+  * **A Challenge: Implement Exercise 7.4 for a special, less general case:** For this exercise, we need to print out the frequency of each value
 in the input, and here we impose a special condition on the input values.
 Namely each input value is a) non-negative, and b) not exceeding an 
 upper limit, say 100.    
