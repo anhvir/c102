@@ -23,7 +23,7 @@ one for inputting array, one for computing the sum.
 ```bash
     S= 1 + x + x^2/2! + x^3/3! + ... + x^k/k! + ...
 ```
-where the element `x^k/k!`  is included in the sum if and only if `|x^k/k!|< 1e-6`.
+where the element `x^k/k!`  is included in the sum if and only if `|x^k/k!| >= 1e-6`.
   * **Optional 3**: Choose the function to compute array's sum in **Optional 2** or the function in **Optional 3** and rewrite it as a *recursive function*.  
   * **Optional 4:** Write a function that return the median of an `int` array. 
   * Make sure you understand the concept of sorting and 
