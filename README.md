@@ -1,12 +1,6 @@
 c102 Week 4:
 =======
 This week Lab: 
-  * **Important Note:** If your workshop is on Monday, you'd better to 
-finish your lab with the **Optional** tasks, and then do the other
-tasks yourselves at the end of the week (and if you have difficulty with
-that, bring your questions to the next week's workshop). If your workshop 
-is not on Monday, you can leave the **Optional**'s items for doing at home :-)
-  
   * **Implement Exercise 6.9:** Make sure you understand the concept of arrays, the relationship
  between arrays and pointers, then start with implementing Exercise 6.9.
 You can use the skeleton [`e69.c`](./e69.c).
@@ -27,6 +21,12 @@ gcc -Wall -o insertion_sort insertion_sort.c
 [`insertion_sort.c`](./insertion_sort.c) and add a few lines to
 remove the duplicates. If you want some hints, you can used
 the skeleton [`e73.c`](./e73.c).
+  * **Important Note:** If your workshop is on Monday, you'd better to 
+finish your lab with the **Optional** tasks belows, and then do the other
+tasks yourselves at the end of the week (and if you have difficulty with
+that, bring your questions to the next week's workshop). If your workshop 
+is not on Monday, you can leave the **Optional**'s items for doing at home :-)
+  
   * **Optional 1:** Write a program that inputs an array of `int` and outputs
 the sum of the array's elements. You must write 2 separate functions:
 one for inputting array, one for computing the sum.
@@ -35,7 +35,7 @@ one for inputting array, one for computing the sum.
     S= 1 + x + x^2/2! + x^3/3! + ... + x^k/k! + ...
 ```
 where the element `x^k/k!`  is included in the sum if and only if `|x^k/k!|< 1e-6`.
-  * **Optional 3**: Choose the function to compute array's sum in **Optional 2** or the function in `Optional 3` and rewrite it as a *recursive function*.  
+  * **Optional 3**: Choose the function to compute array's sum in **Optional 2** or the function in **Optional 3** and rewrite it as a *recursive function*.  
   * **Implement Exercise 7.4:** You can use [`e74_Sol_2.c`](./e74_Sol_2.c) for the **second 
 implementation of Exercise 7.4**. Here we suppose that all elements
 of the array a) are positive, and b) have an upper bound (say, 1000).
