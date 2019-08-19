@@ -5,11 +5,13 @@ This week Lab:
  between arrays and pointers, then start with implementing Exercise 6.9.
 You can use the skeleton [`e69.c`](./e69.c).
  
-  * **Implement Exercise 7.4:** You can use [`e74_Sol_2.c`](./e74_Sol_2.c) for the **second 
-implementation of Exercise 7.4**. Here we suppose that all elements
-of the array a) are positive, and b) have an upper bound (say, 1000).
-You need to invent a smart solution based on the above 2 constraints on the
-input data. *You should not sort the array*.
+  * **A Challenge: Implement Exercise 7.4 for a special, less general case:** For this exercise, we need to prints out the frequency of each value
+in the input, and here we impose a special condition on the input values.
+Namely each input value is a) non-negative, and b) not exceeding an 
+upper limit, say 100.    
+You can use [`e74_Sol_2.c`](./e74_Sol_2.c) as the skeleton for this task.
+*You should not sort the array*.
+
   * **Important Note:** If your workshop is on Monday, you'd better to 
 finish your lab with the **Optional** tasks belows, and then do the other
 tasks yourselves at the end of the week (and if you have difficulty with
@@ -25,15 +27,16 @@ one for inputting array, one for computing the sum.
 ```
 where the element `x^k/k!`  is included in the sum if and only if `|x^k/k!| >= 1e-6`.
   * **Optional 3**: Choose the function to compute array's sum in **Optional 2** or the function in **Optional 3** and rewrite it as a *recursive function*.  
-  * **Optional 4:** Write a function that return the median of an `int` array. 
-  * Make sure you understand the concept of sorting and 
+  * **Optional 4:** Write a function that return the median of an `int` array. Make sure that you handle the duplicates correctly.
+
+  * **Next, after you learnt about insertion sort:** Make sure you understand the concept of sorting and 
  the insertion sort algorithm. 
-To understand the latter, you can use program 
+For illustration, you can use program 
 [`insertion_sort.c`](./insertion_sort.c) and the data file
 [`int_array.txt`](./int_array.txt), which are a complete program 
 and data for inputting an array and printing out
 the sorted array.
-The program also demonstrates how insertion works. Use the program with
+The program also shows how insertion works. Use the program with
 ```bash
 gcc -Wall -o insertion_sort insertion_sort.c
 ./insertion_sort < int_array.txt
@@ -42,8 +45,10 @@ gcc -Wall -o insertion_sort insertion_sort.c
 [`insertion_sort.c`](./insertion_sort.c) and add a few lines to
 remove the duplicates. If you want some hints, you can used
 the skeleton [`e73.c`](./e73.c).
-  * **Implement Exercise 7.4:** You can use [`e74_Sol_1.c`](./e74_Sol_1.c) 
-as a skeleton for the trivial solution of exercise 7.4. 
+  * **Implement Exercise 7.4 for general case:** You can use [`e74_Sol_1.c`](./e74_Sol_1.c) 
+as a skeleton for the general case of exercise 7.4, where each input
+value can be any integer.
+ 
   * Note that the file [`int_array.txt`](./int_array.txt) can 
 serve as an input data file for
 all of above programs. 
