@@ -9,7 +9,7 @@ You can use the skeleton [`e69.c`](./e69.c).
 implementation of Exercise 7.4**. Here we suppose that all elements
 of the array a) are positive, and b) have an upper bound (say, 1000).
 You need to invent a smart solution based on the above 2 constraints on the
-input data.
+input data. *You should not sort the array*.
   * **Important Note:** If your workshop is on Monday, you'd better to 
 finish your lab with the **Optional** tasks belows, and then do the other
 tasks yourselves at the end of the week (and if you have difficulty with
