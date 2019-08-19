@@ -4,7 +4,7 @@
       and counts the frequency of each value in the input.
 
     For Solution 2 we impose 2 conditions on input data:
-       1) all values in the array is positive, and
+       1) all values in the array is positive (or, non-negative), and
        2) UPPER_LIMIT is an upper limit of all array's values.
 
     You need to think of a Solution that does not use sorting, and perhaps
@@ -48,7 +48,9 @@ void print_freq(int a[], int n) {
 */ 
 int read_array(int a[]) {  
 	int i;
-	for (i=0; i<MAX_N && scanf("%d", &a[i])==1; i++); /* empty body */
+	for (i=0; i<MAX_N && scanf("%d", &a[i])==1 
+		       && a[i]>=0 && a[i]<=UPPER_LIMIT ; i++); 
+	 	/* this loop has empty body */
 	return i;
 }
 
