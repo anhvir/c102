@@ -46,8 +46,7 @@ all of above programs.
 
 ### Optional Tasks
   * **Optional 1:** Write a program that inputs an array of `int` and outputs
-the sum of the array's elements. You must write 2 separate functions:
-one for inputting array, one for computing the sum.
+the sum of the array's elements.
   * **Optional 2:** Write a function to compute 
 ```bash
     S= 1 + x + x^2/2! + x^3/3! + ... + x^k/k! + ...
