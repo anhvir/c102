@@ -13,24 +13,14 @@ You can use [`e74_Sol_2.c`](./e74_Sol_2.c) as the skeleton for this task.
 *You should not sort the array*.
 
   * **Important Note:** If your workshop is on Monday, you'd better to 
-finish your lab with the **Optional** tasks belows, and then do the other
+finish your lab with the **Optional** tasks (scroll down a bit for optional tasks), and then do the other
 tasks yourselves at the end of the week (and if you have difficulty with
 that, bring your questions to the next week's workshop). If your workshop 
 is not on Monday, you can leave the **Optional**'s items for doing at home :-)
   
-  * **Optional 1:** Write a program that inputs an array of `int` and outputs
-the sum of the array's elements. You must write 2 separate functions:
-one for inputting array, one for computing the sum.
-  * **Optional 2:** Write a function to compute 
-```bash
-    S= 1 + x + x^2/2! + x^3/3! + ... + x^k/k! + ...
-```
-where the element `x^k/k!`  is included in the sum if and only if `|x^k/k!| >= 1e-6`.
-  * **Optional 3:** Write a function that return the median of an `int` array. Make sure that you handle the duplicates correctly.
-
-  * **Next, after you learnt about insertion sort:** Make sure you understand the concept of sorting and 
+  * **If you already learnt about insertion sort:** Make sure you understand the concept of sorting and 
  the insertion sort algorithm. 
-For illustration, you can use program 
+To play with the insertion sort algorithm, you can use program 
 [`insertion_sort.c`](./insertion_sort.c) and the data file
 [`int_array.txt`](./int_array.txt), which are a complete program 
 and data for inputting an array and printing out
@@ -44,13 +34,26 @@ gcc -Wall -o insertion_sort insertion_sort.c
 [`insertion_sort.c`](./insertion_sort.c) and add a few lines to
 remove the duplicates. If you want some hints, you can used
 the skeleton [`e73.c`](./e73.c).
+
   * **Implement Exercise 7.4 for general case:** You can use [`e74_Sol_1.c`](./e74_Sol_1.c) 
-as a skeleton for the general case of exercise 7.4, where each input
-value can be any integer.
+as a skeleton for the general case of exercise 7.4. Note that 
+for this general case, each input value can be any integer (that
+is, there is no upper limit).
  
   * Note that the file [`int_array.txt`](./int_array.txt) can 
 serve as an input data file for
 all of above programs. 
+
+### Optional Tasks
+  * **Optional 1:** Write a program that inputs an array of `int` and outputs
+the sum of the array's elements. You must write 2 separate functions:
+one for inputting array, one for computing the sum.
+  * **Optional 2:** Write a function to compute 
+```bash
+    S= 1 + x + x^2/2! + x^3/3! + ... + x^k/k! + ...
+```
+where the element `x^k/k!`  is included in the sum if and only if `|x^k/k!| >= 1e-6`.
+  * **Optional 3:** Write a function that return the median of an `int` array. Make sure that you handle the duplicates correctly.
 
 ---------------------------------------------------------
 **HOW_TO: download/copy the files from this github repository**
