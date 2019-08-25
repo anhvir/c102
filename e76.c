@@ -1,11 +1,11 @@
-/*    
-	Purpose : - input an array of integers
-              - print the inputted array
-              - sort the array in increasing order
-                & demonstrates how insertion sort works
-              - output the sorted array 
-   
-	Started by: Anh Vo, anhvir@gmail.com
+/*     
+	Purpose : Implementing exercise 7.6 of the text book:
+              Write a function to sort an array of n integers
+                in acsending order, using selection sort. 		 
+
+	Author :
+	Date   :
+	Note   : the scaffolding supplied by Anh Vo, anhvir@gmail.com
 
 */
 
@@ -16,7 +16,8 @@
 
 int read_array(int a[]); 
 void print_array(char *title, int a[], int n);
-void ins_sort(int a[], int n);
+void sel_sort(int a[], int n);
+void rec_sel_sort(int a[], int n);
 
 int
 main(int argc, char *argv[]) {
@@ -26,7 +27,16 @@ main(int argc, char *argv[]) {
 	n= read_array(a);
 	print_array("Original array", a, n);
 	
-	ins_sort(a,n);
+	/* Change the number "1" belows to "0"
+	   for experimenting with rec_sel_sort
+	*/
+	#if 1
+		printf("\nUSING ITERATIVE SELECTION SORT\n");
+		sel_sort(a,n);
+	#else
+		printf("\nUSING RECURSIVE SELECTION SORT\n");
+		rec_sel_sort(a,n);
+	#endif
 	print_array("Sorted array", a, n);
 
 	return 0;
@@ -42,7 +52,7 @@ int read_array(int a[]) {
 	/* Note that after the loop, "i" becomes the number of elements
        read into the array, and is the same as
 	   the number of currently accessible in the array
-	   (the current number of elements)
+	   (aka. the current number of elements)
 	*/
 }
 
@@ -69,30 +79,23 @@ void swap(int *pa, int *pb) {
 }
 
 /* sorting elements of a[] in increasing order
-   using insertion sort    
+   using selection sort    
 */	
-void ins_sort(int a[], int n){
-	int i, j;
-	for (i=1; i<n; i++) { 
-		/* Position "i" divides the array into 2 parts
-		   the LHS a[0..i-1] and the RHS a[i..n-1]
-		   Elements in the LHS are in sorted order
-		   Elements in the RHS haven't been examined 
-		   And now a[i] is being examined */ 
+void sel_sort(int a[], int n){
+	/* FIXME ; implement this function */
+	
+	fprintf(stderr, "*** Function sel_sort not yet implemented ***\n");	
+	fprintf(stderr, "*********************************************\n");	
 
-		 /* insert a[i] to LHS a[0..i-1] 
-		    so that the extended LHS a[0..i] is sorted */
-		for (j=i-1; j>=0 && a[j] > a[j+1]; j--) {
-			swap( &a[j+1], &a[j] );
-		}
+}
 
-		/* the next 5 lines is just for printing interim results, 
-	       they are not parts of the sorting algorithm */
-		printf ("After i=%2d: ",i);
-		for (j=0; j<=i; j++) printf(" %2d", a[j]);
-		printf("  ||  ");
-		for (   ; j<n; j++) printf(" %2d", a[j]);
-		printf("\n");
+/* sorting elements of a[] in increasing order
+   using recursive selection sort    
+*/	
+void rec_sel_sort(int a[], int n){
+	/* FIXME ; implement this function */
+	
+	fprintf(stderr, "*** Function sel_sort not yet implemented ***\n");	
+	fprintf(stderr, "*********************************************\n");	
 
-	}
 }

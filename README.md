@@ -1,58 +1,38 @@
 c102 Week 4:
 =======
 This week Lab: 
-  * **Implement Exercise 6.9:** Make sure you understand the concept of arrays, the relationship
- between arrays and pointers, then start with implementing Exercise 6.9.
-You can use the skeleton [`e69.c`](./e69.c).
- 
-  * **A Challenge: Implement Exercise 7.4 for a special, less general case:** For this exercise, we need to print out the frequency of each value
-in the input, and here we impose a special condition on the input values.
-Namely each input value is a) non-negative, and b) not exceeding an 
-upper limit, say 100.    
-You can use [`e74_Sol_2.c`](./e74_Sol_2.c) as the skeleton for this task.
-*You should not sort the array*.
-
-  * **Important Note:** If your workshop is on Monday, you'd better to 
-finish your lab with the **Optional** tasks (scroll down a bit for optional tasks), and then do the other
-tasks yourselves at the end of the week (and if you have difficulty with
-that, bring your questions to the next week's workshop). If your workshop 
-is not on Monday, you can leave the **Optional**'s items for doing at home :-)
-  
-  * **If you already learnt about insertion sort:** Make sure you understand the concept of sorting and 
- the insertion sort algorithm. 
-To play with the insertion sort algorithm, you can use program 
-[`insertion_sort.c`](./insertion_sort.c) and the data file
-[`int_array.txt`](./int_array.txt), which are a complete program 
-and data for inputting an array and printing out
-the sorted array.
-The program also shows how insertion works. Use the program with
+  * For this week, you'd better to write programs and/or functions on paper.
+That would be a good practice for the MST next week. If you really want
+to test your functions on computers, you can use the supplied scaffoldings
+for exercises 7.6-7.9. In each scaffolding, the main() function and
+the input/output parts are already written, and your job is just to fill
+in the function required by the respective exercise. Note that you can
+use the data file `int_array.txt` for testing your program. For example,
+you can test `e77.c` (for Exercise 7.7) with
 ```bash
-gcc -Wall -o insertion_sort insertion_sort.c
-./insertion_sort < int_array.txt
+./e77 < int_array.txt
 ```
-  * **Implement Exercise 7.3:** You can start with 
-[`insertion_sort.c`](./insertion_sort.c) and add a few lines to
-remove the duplicates. If you want some hints, you can used
-the skeleton [`e73.c`](./e73.c).
-
-  * **Implement Exercise 7.4 for general case:** You can use [`e74_Sol_1.c`](./e74_Sol_1.c) 
-as a skeleton for the general case of exercise 7.4. Note that 
-for this general case, each input value can be any integer (that
-is, there is no upper limit).
- 
-  * Note that the file [`int_array.txt`](./int_array.txt) can 
-serve as an input data file for
-all of above programs. 
-
-### Optional Tasks
-  * **Optional 1:** Write a program that inputs an array of `int` and outputs
-the sum of the array's elements.
-  * **Optional 2:** Write a function to compute 
-```bash
-    S= 1 + x + x^2/2! + x^3/3! + ... + x^k/k! + ...
+  * Click [here](./e76.c) for a scaffolding for `Exercise 7.6`. Note that 
+if you want to test your recursive implementation, you should change
+the line 
+```c
+#if 1
 ```
-where the element `x^k/k!`  is included in the sum if and only if `|x^k/k!| >= 1e-6`.
-  * **Optional 3:** Write a function that return the median of an `int` array. Make sure that you handle the duplicates correctly.
+in `e76.c` into:
+```c
+#if 0
+```
+The `#if 1` is a compiler directive, telling the compiler to ignore
+ everything in between `#else` and `#endif`. Naturally `#if 0` tells
+the compiler to ignore everything in between `#if 0` and `#else`.
+
+  * Click [here](./e77.c) for a scaffolding for `Exercise 7.7`.
+  * Click [here](./e78.c) for a scaffolding for `Exercise 7.8`. 
+ Note that this scaffolding makes use of two arguments `argc` and `argv`
+of the `main()` function. 
+  * Click [here](./e79.c) for a scaffolding for `Exercise 7.9`. 
+
+
 
 ---------------------------------------------------------
 **HOW_TO: download/copy the files from this github repository**
