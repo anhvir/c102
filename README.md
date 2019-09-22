@@ -1,14 +1,12 @@
-c102 Week07: 
-============
-
+ c102
+=======
 This week:
-   * `string_examples_skel.c` skeleton for implementing
-             some functions discussed in the workshop.
-   * `assignment1.pdf` : advices for assignment 1
-  
+   * Week09: slides used this week and
+             skeleton for Ex 4,5,6.
 
 
-------------------------------------------------------------
+HAPPY MIDTERM BREAK !
+======================
 
 by avo@unimelb.edu.au, for use in unimelb COMP10002 workshops.
 
