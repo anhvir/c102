@@ -2,69 +2,52 @@
 #include <stdlib.h>   
 #include <assert.h>
 
+typedef struct {
+	double x,y;
+} data_t;
 
-/* ------------- working with dynamic array -----------------
-   + define a datatype for a (dynamic) array of data_t type
-     (ie. each element of the array is of data type data_t)
-   + allowing operations:
-        - creating an array
-        - adding an element to the end of the array
-        - removing the last element from the array and returning it
-        - checking if an array is empty (ie having no element)
-   ============================================================ */  
+#include "array.c"
 
+typedef array_t sstack_t;
 
-/* ----------- The following part is for testing ------------- */ 
-
-typedef int data_t;
-
-#include "listops.c"
-#include "darray.c"
-
-// building stack
-typedef  list_t ms_t;
-ms_t *create_stack(){
-	return make_empty_list();
+sstack_t* create_stack() {
+	return create_array();
 }
-void push(ms_t *s, data_t x) {
-	insert_at_head(s, x);
+
+void push (sstack_t *s, data_t x) {
+	array_add(s, x);
 }
-data_t pop(ms_t *s) {
-	data_t x= get_head(s);
-	get_tail(s);
-	return x;
+ 
+data_t pop(sstack_t *s) {
+	return array_remove(s);
 }
-int is_stack_empty( ms_t *s) {
-	return is_empty_list(s);
+
+int is_empty(sstack_t *s) {
+	return s->n==0;
+}
+
+void free_stack(sstack_t *s) {
+	free_array(s);
 }
 
 int main(int argc, char *argv[]) {
-	ms_t *a= NULL;
+	sstack_t *s= create_stack();
 	int i;
-	data_t x;
-
-	a= make_empty_list();	
-	printf("****1\n");
+	data_t d;
 	for (i=0; i<10; i++) {
-		x= i;
-		printf("***** 1.1 a=%p  x=%d\n", a, x);
-		push(a, x);
-		printf("***** 1.2\n");
-
-		printf("added %d\n", x);
+		
+		d.x= i;
+		d.y= i*10;
+		push(s, d);
 	}
-	
-	printf("****2\n");
-	
-	while (!is_stack_empty(a)) {
-		x= pop(a);
-		printf("removed %d\n", x);
-	}	
-	
-	printf("****3\n");
-	
+
+	while ( !is_empty(s)) {
+		d= pop(s);
+		printf("pop (%.0f, %.0f)\n", d.x, d.y);
+	}
+
+	// uncomment the next line to make the program memory-leak-free	
+	// free_stack(s);
 	return 0;
 } 	
-
-
 
