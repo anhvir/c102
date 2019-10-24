@@ -1,4 +1,6 @@
- c102  Week 11
+Note: Slides for workshop week 12 will be posted here by 11:59PM Friday 24/OCT.
+======= 
+c102  Week 11
 =======
 This week:
    * Slides for this week, that contains a few Q&A that might be useful for assignment 2.
