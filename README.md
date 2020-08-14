@@ -1,8 +1,11 @@
-c102 Week 12
-=====
+ c102 Week 02:
+=======
 
-  * `12_C102_19S2.pdf`: slides used in this week workshops
+  * **02_C102_20S2.pdf**: workshop's slides for this week
 
-  * **Note:** Please email me if you see that I forgot to upload something :-)
-    
 
+
+-------------------------------------------------------------
+by avo@unimelb.edu.au, for use in unimelb COMP10002.
+
+For a teaching week, a new content is (normally) uploaded at the very beginning of the week, and that content is removed one week later.
