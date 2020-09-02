@@ -1,7 +1,7 @@
  c102 Week 02:
 =======
 
-  * **02_C102_20S2.pdf**: workshop's slides for this week
+  * **week5.pdf**: workshop's slides for this week
 
 
 
