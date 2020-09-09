@@ -1,7 +1,7 @@
- c102 Week 02:
+ c102 Week 06:
 =======
 
-  * **week5.pdf**: workshop's slides for this week
+  * **week6_c1026_c1026_c1026_c1026_c1026_c1025.pdf**: workshop's slides for this week
 
 
 
