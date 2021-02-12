@@ -1,9 +1,5 @@
- c102 Week 06:
-=======
 
-  * **week6_c1026_c1026_c1026_c1026_c1026_c1025.pdf**: workshop's slides for this week
-
-
+Not in a semester.
 
 -------------------------------------------------------------
 by avo@unimelb.edu.au, for use in unimelb COMP10002.
