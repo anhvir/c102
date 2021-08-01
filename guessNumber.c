@@ -8,6 +8,7 @@
     this program. And I believe that after a couple of weeks you
     can reproduce this program or write similar programs yourselves.
     
+    
    HOW-TO play with this program:
    1. In github, click "Raw" to have the plain text content. Then 
       Ctrl-A, Ctrl-C to copy. Last, paste it to grok's Playground 
