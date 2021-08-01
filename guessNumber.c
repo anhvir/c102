@@ -5,8 +5,8 @@
 	the program will terminate only after you give
 	the right guess.
    I hope that with your Python's knowledge, you can understand
-    this program. And I believe that after a couple of weeks you
-    can reproduce this program or write similar programs yourselves.
+    this code. And I believe that after a couple of weeks you
+    can reproduce this program and/or write similar programs yourselves.
     
     
    HOW-TO play with this program:
@@ -15,6 +15,17 @@
       window (or to your editor/JEdit window)
    2. Run and try the program. If you use jEdit, you need to save
       the code, compile it before executing.  
+   3. Explore and try to understand the code. If you want to dig
+      more on rand(), srand(), or time() functions, why not give
+      a question like "C rand()" to our friend Google?
+   4. Make some small changes to the program and re-run it. Suggested
+      changes included (but not limited to):
+         + change MY_NAME from "Anh" to "your_name" 
+         + change MAX to 20 or even 100, or something else
+         + [challenging] the current code thinks the user uses binary
+           search even when the user doesn't do so, and just has a  
+           low number of guesses due to luck! Modify the code to
+           address this problem.
 */
 
 #include <stdio.h>    /* for printf(), scanf() and etc.     */
@@ -92,7 +103,7 @@ int main(int argc, char *argv[]) {
 	      B- Binary Search: 
 	          0. you know that the secret is in range low(=MIN)..high(=MAX)
 	          1. you make a guess with the middle value (low+high)/2
-	          2. if not successful, you use the suggesstions ("too low" or
+	          2. if not successful, you use the suggestions ("too low" or
 	             "too high" to modify the values of low or high,
 	             then go back to step 1.
 	         Each time you make a guess, you half the length of low..high,

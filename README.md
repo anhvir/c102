@@ -9,5 +9,5 @@ you can Ctrl-A and Ctrl-C to copy.
 -------------------------------------------------------------
 WARNINGS: 
 - The files other than README.md, if any, are **temporary**, and
-might be removed at any time. There is noo warranty that you can
+might be removed at any time. There is no warranty that you can
 see them when you visit the site next time.  
