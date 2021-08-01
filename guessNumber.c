@@ -9,7 +9,7 @@
     can reproduce this program or write similar programs yourselves.
     
    HOW-TO play with this program:
-   1. In github, click "Raw" to have the pain text content. Then 
+   1. In github, click "Raw" to have the plain text content. Then 
       Ctrl-A, Ctrl-C to copy. Last, paste it to grok's Playground 
       window (or to your editor/JEdit window)
    2. Run and try the program. If you use jEdit, you need to save
