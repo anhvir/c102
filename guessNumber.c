@@ -41,8 +41,8 @@
 int main(int argc, char *argv[]) {
 	char name[MAX_NAME_LEN + 1];   /* this is a string variable  */		
 	int secret,	                   /* my secret number           */
-		guess,		               /* your guess                 */
-		count= 0;                  /* number of guesses made     */
+	    guess,		               /* your guess                 */
+	    count= 0;                  /* number of guesses made     */
 	
 	/*-------- greeting ---------*/ 
 	printf("Hi! My name's %s. \nWhat's your name? ", MY_NAME);
@@ -78,8 +78,8 @@ int main(int argc, char *argv[]) {
 	/*-------- printing some assessments & concluding ---------*/ 
 	printf("\nRight, %s! You did it with %d guesses.\n", name, count);
 	int max_seq = MAX - MIN + 1,    /* max guesses if using sequential search */
-	    max_bin = ceil(log10(max_seq)/log10(2)); /*if using binary search     */
-                                    /* see NOTE at the end of the program     */
+	max_bin = ceil(log10(max_seq)/log10(2)); /*if using binary search     */
+	                            /* see NOTE at the end of the program     */
 	          
 	if (count <= max_bin) {
 		printf ("You did so well!\nI guessed that you used binary search.\n");
