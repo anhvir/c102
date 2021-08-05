@@ -39,10 +39,11 @@ int main(int argc, char *argv[]) {
  
 	printf("\n");
 	printf("I suggest you to try different & crazy input, like:\n");
-	printf("    (note: below, you can copy & paste )\n\n");
+	printf("    (you can copy 1 line at a time and feed it to scanf when re-running)\n\n");
   
 	printf("10A1.2345678\n");
 	printf("10 A1.2345678\n");
+	printf("Hello?\n");
 	printf("10A 1.2345678\n");
 	printf("  10A      1.23 45678\n");
 	printf("  10AB 1.23\n");
