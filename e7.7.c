@@ -43,3 +43,24 @@ int most_freq(int A[], int n) {
     }
     return val;
 }
+
+
+// read array, returns num of elements
+int read_array(int A[]) {
+    int i, x;
+    for (i=0; i<MAX_N && scanf("%d", &x) == 1; i++) {
+        A[i]= x;
+    }
+    return i;
+}
+
+// primnt array
+void print_array(int A[], int n) {
+    int i;
+    printf("array= ");
+    for (i=0; i<n; i++) {
+        printf("%d ", A[i]);
+    }
+    printf("\n");
+}
+
