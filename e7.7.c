@@ -36,7 +36,7 @@ int most_freq(int A[], int n) {
             }
         }    
             
-        if (freqAi > freq || freqAi==freq && A[i]<val) {
+        if ( (freqAi > freq) || (freqAi==freq && A[i]<val)) {
            val= A[i];
            freq= freqAi;
         }
