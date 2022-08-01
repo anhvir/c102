@@ -1,15 +1,13 @@
-c102 Week07: 
-============
+by avo@unimelb.edu.au, for use in unimelb COMP10002.
 
-This week:
-   * `string_examples_skel.c` skeleton for implementing
-             some functions discussed in the workshop.
-   * `assignment1.pdf` : advices for assignment 1
-  
+Click on an individual file to view it. If you want to copy the
+file content to the clipboard, make sure to click on the button "Raw"
+(that appears on the top right of the file content) first. That
+will bring you to the plain text version of the file, and then
+you can Ctrl-A and Ctrl-C to copy.
 
-
-------------------------------------------------------------
-
-by avo@unimelb.edu.au, for use in unimelb COMP10002 workshops.
-
-For a teaching week, a new content is (normally) uploaded at the very beginning of the week, and that content is removed one week later.
+-------------------------------------------------------------
+WARNINGS: 
+- The files other than README.md, if any, are **temporary**, and
+might be removed at any time. There is no warranty that you can
+see them when you visit the site next time.  
