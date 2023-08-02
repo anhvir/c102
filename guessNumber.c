@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
 	
 	printf("Now, let's play a game\n"
 			"I have a secret number  between %d and %d inclusively,\n"
-			"could you please guess that number.\n\n",
+			"would you be able to guess that number just after a few trial?\n\n",
 			MIN, MAX );
 
 	/*-------- initializing ---------*/  
@@ -76,7 +76,8 @@ int main(int argc, char *argv[]) {
 	}
 
 	/*-------- printing some assessments & concluding ---------*/ 
-	printf("\nRight, %s! You did it with %d guesses.\n", name, count);
+	printf("\nRight, %s, my secret number is really %d! You did it with %d guesses.\n",
+			 name, secret, count);
 	int max_seq = MAX - MIN + 1,    /* max guesses if using sequential search */
 	max_bin = ceil(log10(max_seq)/log10(2)); /*if using binary search     */
 	                            /* see NOTE at the end of the program     */
