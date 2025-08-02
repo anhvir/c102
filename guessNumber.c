@@ -82,7 +82,7 @@ int main(int argc, char *argv[]) {
 	max_bin = ceil(log10(max_seq)/log10(2)); /*if using binary search     */
 	                            /* see NOTE at the end of the program     */
 	          
-	if (count <= max_bin) {
+	if (count <= max_bin) + 1 {
 		printf ("You did so well!\nI guessed that you used binary search.\n");
 	} else if (count <= max_seq) {
 		printf ("Not bad!\nBut you could try a better strategy.\n");
